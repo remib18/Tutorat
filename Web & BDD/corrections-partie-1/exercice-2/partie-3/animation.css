@@ -1,0 +1,11 @@
+.container {
+    transition:
+            transform .3s ease,
+            rotate .3s ease;
+}
+
+.container:hover {
+    transform: scale(1.05);
+    rotate: 2deg;
+    cursor: pointer;
+}

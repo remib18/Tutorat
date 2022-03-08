@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@400;500&display=swap');
+
+body, html {
+    overflow: hidden;
+}
+
+body {
+    background-color: #D5E1EF;
+    height: 100vh;
+    width: 100vw;
+
+    /* Centrer l'enfant dans le conteneur */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+.container {
+    padding: 1.5rem;
+    border-radius: 1.5rem;
+
+    background-color: #fff;
+}
+
+.container img {
+    width: 318px;
+    height: 318px;
+    border-radius: .75rem;
+}
+
+.container h1 {
+    color: #1F3251;
+    font-weight: 500;
+    font-size: 24px;
+    margin: 0;
+}
+
+.container p {
+    color: #7B879D;
+    font-size: 15px;
+    margin: 0;
+}
