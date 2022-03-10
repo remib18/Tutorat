@@ -7,4 +7,4 @@ Pour rappel, mon tutorat couvre les matières suivantes :
 - L1 Programmation fonctionnelle (concepts + Ocaml)
 
 ## Accès au Github
-https://ii1.su/t6YFk
+https://ii1.su/t6YFk ou https://github.com/remib18/Tutorat
