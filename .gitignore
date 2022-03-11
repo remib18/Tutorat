@@ -86,6 +86,8 @@ fabric.properties
 *.ipr
 modules.xml
 .idea/misc.xml
+.idea/
+.idea/*
 
 # vscode
 
