@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+  <title>Exercice 1</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="./script.js" defer></script>
+</head>
+<body>
+
+<main class="grid">
+  <div class="card user">
+    <div class="card-body">
+      <img src="./images/image-jeremy.png" alt="user profile">
+      <span class="report">Report for</span>
+      <span class="name">Jeremy Robson</span>
+    </div>
+    <div class="card-footer">
+      <form action="#">
+        <ul>
+          <li><label for="daily">Daily</label><input type="radio" name="daily" id="daily"></li>
+          <li><label for="weekly">Weekly</label><input type="radio" name="weekly" id="weekly" checked></li>
+          <li><label for="monthly">Monthly</label><input type="radio" name="monthly" id="monthly"></li>
+        </ul>
+      </form>
+    </div>
+  </div>
+  <div class="card work">
+    <div class="card-body" data-item>
+      <span class="card-title">Work</span>
+      <svg  class="icon more" width="21" height="5" xmlns="http://www.w3.org/2000/svg">
+        <path d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z" fill="#BBC0FF" fill-rule="evenodd"/>
+      </svg>
+      <span class="tracker" data-time></span>
+      <span class="previous">Last Week — <span data-last-week=""></span></span></div>
+  </div>
+  <div class="card play">
+    <div class="card-body" data-item>
+      <span class="card-title">Play</span>
+      <svg  class="icon more" width="21" height="5" xmlns="http://www.w3.org/2000/svg">
+        <path d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z" fill="#BBC0FF" fill-rule="evenodd"/>
+      </svg>
+      <span class="tracker" data-time=""></span>
+      <span class="previous">Last Week — <span data-last-week=""></span></span></div>
+  </div>
+  <div class="card exercise">
+    <div class="card-body" data-item>
+      <span class="card-title">Study</span>
+      <svg  class="icon more" width="21" height="5" xmlns="http://www.w3.org/2000/svg">
+        <path d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z" fill="#BBC0FF" fill-rule="evenodd"/>
+      </svg>
+      <span class="tracker" data-time=""></span>
+      <span class="previous">Last Week — <span data-last-week=""></span></span></div>
+  </div>
+  <div class="card study">
+    <div class="card-body" data-item>
+      <span class="card-title">Exercise</span>
+      <svg  class="icon more" width="21" height="5" xmlns="http://www.w3.org/2000/svg">
+        <path d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z" fill="#BBC0FF" fill-rule="evenodd"/>
+      </svg>
+      <span class="tracker" data-time=""></span>
+      <span class="previous">Last Week — <span data-last-week=""></span></span></div>
+  </div>
+  <div class="card social">
+    <div class="card-body" data-item>
+      <span class="card-title">Social</span>
+      <svg  class="icon more" width="21" height="5" xmlns="http://www.w3.org/2000/svg">
+        <path d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z" fill="#BBC0FF" fill-rule="evenodd"/>
+      </svg>
+      <span class="tracker" data-time=""></span>
+      <span class="previous">Last Week — <span data-last-week=""></span></span></div>
+  </div>
+  <div class="card self-care">
+    <div class="card-body" data-item>
+      <span class="card-title">Self Care</span>
+      <svg  class="icon more" width="21" height="5" xmlns="http://www.w3.org/2000/svg">
+        <path d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z" fill="#BBC0FF" fill-rule="evenodd"/>
+      </svg>
+      <span class="tracker" data-time=""></span>
+      <span class="previous">Last Week — <span data-last-week=""></span></span></div>
+  </div>
+</main>
+
+</body>
+</html>

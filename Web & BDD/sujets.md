@@ -70,7 +70,7 @@ body {
 
 ### Partie 2 — Javascript (JS)
 
-#### 1: Tableau de bord - Traqueur de temps — **EN COURS**
+#### 1: Tableau de bord - Traqueur de temps — **PAS ENCORE DE CORRECTION**
 
 #### 2: Calcul de prix en fonction du trafic — **EN COURS**
 
