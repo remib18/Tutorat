@@ -10,7 +10,7 @@ Tu retrouveras ici toutes les fiches de cours.
 - [Require et include : Réutiliser son code](./php/require-include.md)
 - [PHP et HTML : Générer un site dynamique](./php/php-et-html.md)
 - [Utiliser PHP pour traiter les formulaires](./php/traitement-formulaires.md) **EN COURS**
-- [Utiliser une base de données avec PHP](./php/php-et-sql.md) **EN COURS**
+- [Utiliser une base de données avec PHP](./php/php-et-sql.md)
 - [Composer : dépendances et autoload](./php/composer.md) **EN COURS**
 
 ## SQL
